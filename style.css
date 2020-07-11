@@ -1,0 +1,50 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;;
+}
+
+.lang{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 38%;
+  font-weight: bold;
+}
+#func {
+  background-image: url('images.png'); 
+  background-position: 10px 12px; 
+  background-size:20px;
+  background-repeat: no-repeat; 
+  width: 10%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-left:80%;
+  border-radius:5%;
+  border:2px solid #000;
+}
+
+
+
+#languages li a {
+ 
+  list-style-type: none;
+  margin-top: 10px; 
+  background-color: #eee; 
+  padding-left: 12px; 
+  text-decoration: none; 
+  font-size: 23px; 
+  color: black;
+   
+  display: block; 
+}
+.content{
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+#languages li a:hover:not(.header) {
+  background-color: #B2BEB5; 
+}
